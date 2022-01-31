@@ -1,0 +1,58 @@
+{"intents": [
+          {"tag": "No Response",
+         "patterns": ["no response","noway"],
+         "responses": ["please enter valid input from the list"],
+         "context": [""]
+        },
+        {"tag": "Greetings",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+          {"tag": "Thanking",
+         "patterns": ["thank", "thank you", "good"],
+         "responses": ["You are welcome buddy", "welcome!!", "I can do a lot more!!"],
+         "context": [""]
+        },
+       {"tag": "Trouble ticket",
+         "patterns": ["raise Trouble ticket for existing user.","trouble ticket for exiting user","trouble ticket"],
+         "responses": ["Check on the following share path for 'Steps to raise Trouble Tickets' \\n'\\\\Tamp20pvfiler09.corp.local\\share1\\National\\Development\\QA\\Offshore\\Chatbot Informations\\How to raise Trouble ticket'\\nNote:Copy and paste the path in 'RUN' to access the Share Folder. User should be connected in Charter Network"],
+         "context": [""]
+        },
+         {"tag": "Charter Help desk",
+         "patterns": ["Help desk","Charter help desk"],
+         "responses": ["Help-Desk number : 888 415 0012 For the following queries, you can contact the above mentioned Charter Help-Desk number \\n>  Access Relatedqueries\\n>  Password locked/ChangePassword related queries\\n>  VPN issues\\n>  Current status for the tickets raised for new access\\n>  Follow up on Troubletickets.\\n>  VIP Access"],
+         "context": [""]
+        },
+         {"tag": "Team details",
+         "patterns": ["teamdetails","team details"],
+         "responses": ["Kindly check on the following Share Path link  for 'TEAM DETAILS'\\n '\\\\Tamp20pvfiler09.corp.local\\share1\\National\\Development\\QA\\Offshore\\Chatbot Informations\\Team Contact Details' \\nNote:Copy and paste the path in 'RUN' to access the Share Folder. User should be connected in Charter Network"],
+         "context": [""]
+        },
+        {"tag": "Regression Cases",
+         "patterns": ["regressioncases","regression cases"],
+         "responses": ["Kindly check on the following Share Path link  for 'REGRESSION CASES'\\n '\\\\Tamp20pvfiler09.corp.local\\share1\\National\\Development\\QA\\Offshore\\Chatbot Informations\\Regression Cases' \\nNote:Copy and paste the path in 'RUN' to access the Share Folder. User should be connected in Charter Network"],
+         "context": [""]
+        },
+          {"tag": "Understanding docs for BRF",
+         "patterns": ["Understanding docs for BRF","docs for brf","understandingdocs for brf","understanding docs for brf","Understanding docs"],
+         "responses": ["Kindly check on the following Share Path link  for 'Understanding docs for BRF'\\n '\\\\Tamp20pvfiler09.corp.local\\share1\\National\\Development\\QA\\Offshore\\Chatbot Informations\\BRF Understanding Documents' \\nNote:Copy and paste the path in 'RUN' to access the Share Folder. User should be connected in Charter Network"],
+         "context": [""]
+        },
+         {"tag": "Holidays",
+         "patterns": ["holidays","holi","holiday"],
+         "responses": ["\\n1. Onshore Holiday\\n2. Offshore Holiday"],
+         "context": [""]
+        },
+         {"tag": "Onshore Holiday",
+         "patterns": ["Onshore Holiday","onshoreholiday","onshore holi","onshore holiday","onshore"],
+         "responses": ["\\nNew Year's Day         Wednesday, Jan 1\\nMartin Luther King Day          Monday, Jan 20\\nMemorial Day          Monday, May 25\\nIndependence Day          Friday, July 03\\nLabor Day          Monday, Sept 7\\nThanksgiving Day         Thursday, Nov 26\\nChristmas Day          Friday, Dec 25"],
+         "context": [""]
+        },
+        {"tag": "offshore Holiday",
+         "patterns": ["offshore Holiday","offshoreholiday","offshore holi","offshore holiday","offshore"],
+         "responses": ["\\nMakara Sankranthi            Wednesday, Jan 15\\nMahashivatri            Friday, Feb 21\\nTamil New Year's Day           Tuesday, Apr 14\\nMay Day           Friday, May 01\\nIdul Fitr / Kutub-A-Ramzan         Monday, May 25\\nKrishna Janmashtami            Tuesday, Aug 11\\nGanesh Chaturti           Friday, Aug 21\\nGandhi Jayanthi            Friday, Oct 02\\nVijaya Dashami         Monday, Oct 26\\nDiwali         Monday, Nov 16\\nChristmas          Friday, Dec 25"],
+         "context": [""]
+        }
+]
+}

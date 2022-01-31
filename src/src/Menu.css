@@ -1,0 +1,23 @@
+.menu{
+
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.header{
+    text-align: center;
+    position: sticky;
+    color: blue;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.help{
+
+    padding-top: 50px;
+    text-align: center;
+    color: purple;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}

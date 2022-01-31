@@ -1,0 +1,162 @@
+{"intents": [
+          {"tag": "No Response",
+         "patterns": ["no response","noway"],
+         "responses": ["please enter valid input from the list"],
+         "context": [""]
+        },
+        {"tag": "Greetings",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+          {"tag": "Thanking",
+         "patterns": ["thank", "thank you", "good"],
+         "responses": ["You are welcome buddy", "welcome!!", "I can do a lot more!!"],
+         "context": [""]
+        },
+        {"tag": "Charter Related Requests",
+         "patterns": ["Charter Related", "Regarding Charter", "charter related", "Charter related"],
+         "responses": ["\n>>\tPID Request/Activation\n>>\tALM Request\n>> \tApplication access Requests\n>>\tFieldglass Registration\n>>\tNeed more choices\n"],
+         "context": [""]
+        },
+        {"tag": "ICOMS Application Overview",
+         "patterns": ["ICOMS Application Overview", "ICOMS overview", "icoms overview"],
+         "responses": [">>  Track Level Overview\n>>  Billing System\n>>  Residential/commercial/Business\n>> Transaction Supported/Scenario"],
+         "context": [""]
+        },
+        {"tag": "PID request/Activation",
+         "patterns": ["How to activate PID", "pid activation","PID Activation","pid request"],
+         "responses": [">>\tLogin to URL: www.iam.charter.com and and request for BHN/LTWC PID\n>>\tSelect Request Access as BHN network ID/TWC Network ID\nFor Activation:\n>>\tAfter successful creation of Charter ID, the end user will get an confirmation email from IDM with their PID details\n>>\tWhen the end user receives their PID they have to activate that ID by navigating to URL: https://iam.charter.com\n>>\tThe above-mentioned link can be accessed only when Charter VPN is connected\n>>\tAfter opening the URL: https://iam.charter.com with end user’s credentials 'Activate Account' page will be displayed\n>>\tIn 'Activate Account' page enter your PID in User ID field and 4-digit pin will be your birth month[numeric] followed by your birth date (ex., 0305 for March 5th) and click on ACTIVATE button\n>>\tIn the next page set answers for security questions; set your password and logout and login with new password\n"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Infosys Related Requests, Charter Related Requests, ICOMS Application Overview"],
+         "context": [""]
+        },
+        {"tag": "ALM Request",
+         "patterns": ["How to raise ALM request?", "ALM Request", "alm request"],
+         "responses": [">>\tNavigate to URL:' https://panorama.charter.com/ ' and select IT Support Portal -> Click on Open a Ticket -> Select Desktop Software -> Enterprise Application -> Click on Issue with Software.\n>>\tAs per the below information in the description and raise a ticket,\n>>\tHi,\nCan you please provide access to HP ALM application for the new person added to our team,\nALM link : https://alm.corp.chartercom.com/qcbin/start_a.jsp\nDomain: BHN\nProject: ICOMS_Billing, CRM, SMB_CRM\nAccess level - Lead level. \n>>\tAfter the request has been raised to check the status,\n>>\tGot to Service Orders -> My Orders -> the raised request will be displayed.\n"],
+         "context": [""]
+        },
+        {"tag": "Need more choices",
+         "patterns": ["Need more","need more choice","more choice"],
+         "responses": ["\n>>\tVPN request\n>> \tApplication Access for New Users\n>> \t>>Adding Charter Mail to Charter DL\n>> \tOther requests"],
+         "context": [""]
+        },
+        {"tag": "other requests",
+         "patterns": ["other requests","other"],
+         "responses": ["\n>>\tShared Folder Access request\n>>\tNCSS Portal Access request\n>>\tBRF Access request\n>>\t>>Configuring Charter Outlook\nScroll up to view the previous options, please type a valid request\n"],
+         "context": [""]
+        },
+        {"tag": "Infosys Related Requests",
+         "patterns": ["infosys related Requests","infosys related","infy related"],
+         "responses": [">\tAdding Mail IDs to DL\n>\tCubicle / Desktop / Laptop allocation\n>\tAdding URLs to Trusted Sites\n>\tAllocating ALM asset in AMS"],
+         "context": [""]
+        },
+        {"tag": "Adding Mail IDs to DL",
+         "patterns": ["add mail to DL","adding mail id to dl"],
+         "responses": ["\n>\tYou need to send an email to Aswin_Subramanian@infosys.com for adding the email id and phone number.\n>\tThe Email should contain proper explanation of request along with Employee ID, Infosys Email Id and Mobile number\n"],
+         "context": [""]
+        },
+        {"tag": "Cubicle allocation",
+         "patterns": ["Cubicle allocation","cubicle allocation","space allocation","space"],
+         "responses": ["\n>\tYou need to send email to Kamala_c@Infosys.com for Cubicle Allocation and ODC Access\n\n>\tThe Email should contain proper explanation of request along with Employee ID, Infosys Email Id and Mobile number\n"],
+         "context": [""]
+        },
+        {"tag": "Desktop / Laptop Allocation",
+         "patterns": ["Desktop allocation","Laptop allocation"],
+         "responses": ["\nPrerequisite: cubicle allocation should be done..\n>\tRespective person needs to talk to Nandakumar_J (or) Thulasiram_T before raising any requests.\n>\tFor Desktop: Either of them will help the resource by raising the One-Stop request.\n>\tFor Laptop: After discussing with Nandakumar or Thulasiram, an AHD needs to be raised so that they can get the approval from DM for the same.\n"],
+         "context": [""]
+        },
+        {"tag": "Adding URLs to Trusted Sites",
+         "patterns": ["Adding URLs to Trusted Sites","add urls to trusted sites"],
+         "responses": ["\n>\tRespective person needs to get the approval email for ISG approval\n>\tAfter the completion of approval process then needs to raise AHD for adding the URL’s in the Trusted sites attaching ISG approval.\n"],
+         "context": [""]
+        },
+
+        {"tag": "Allocating ALM asset in AMS",
+         "patterns": ["allocating alm asset in ams","alm asset in ams"],
+         "responses": ["\n>\tYou need to send an email to EvelineRajam_S@infosys.com for the ALM Allocation in Asset.\n>\tThe Email should contain proper explanation of request along with Name, Employee ID and Infosys Email Id.\n"],
+         "context": [""]
+        },
+        {"tag": "VPN request",
+         "patterns": ["vpn request","vpn req"],
+         "responses": [">>\tBefore raising VPN request the user should get BHN Account created to get access to BHN VPN\n>>\tFor getting the BHN account, the user should navigate to https://iam.charter.com/landing/  and navigate to Request Access -> Select Bright house Account Request \n>>\tIn 'My Permissions', you can verify whether the request have been approved or not\n>>\tFor raising the VPN access, go to https://panorama.charter.com/  and select IT Support Portal -> Click on Open a Ticket -> Select IT Network Services -> VPN -> Select Request Access to VPN\n>>\tSelect email address for whom to raise the request\n>>\tUpdate Device Type -> Non Company Issues (Select this first then select Company Name)\n>>\tCompany Name -> BHN\n>>\tSelect the Role as 'Default VPN'\n>>\tAdd additional comments such as below,\no\tHi, we have new members joined to our team who needs LBHN Checkpoint VPN.\nServer Address or Name: mobile.mybrighthouse.com\nDisplay Name: BHN-Tampa VPN Gateway\nFirst Name\tLast Name\tPID’s\n"],
+         "context": [""]
+        },
+        {"tag": "Application Access for New Users",
+         "patterns": ["Application Access for New Users","Application Access","application access request"],
+         "responses": [">>\tUser should login to Panorama.charter.com\n>>\tNear the Search icon you can see a grid icon click that and select ALL APPS.\n>>\tSelect BSAM REQUEST\n>>\tAfter clicking that a new tab will be opened, in that new tab enter your credentials\n>>\tIn the Left corner Select the Category BSAM REQUEST\n>>\tClick on the BSAM REQUEST drop down and select USER ACCESS REQUEST\n>>\tA form will be opened Kindly fill it and add the error screenshot and Submit it\n"],
+         "context": [""]
+        },
+
+        {"tag": "Adding Charter Mail to Charter DL",
+         "patterns": ["Adding Charter Mail to DL","Adding Charter Mail to Charter DL"],
+         "responses": [">>\tWe need to send a mail to Vinoth with First Name, Last Name and PID to request Jonathan (DL Owner) to add to new users to DL"],
+         "context": [""]
+        },
+        {"tag": "Fieldglass registration",
+         "patterns": ["Fieldglass registration","fieldglass", "register field glass"],
+         "responses": [">>\tAfter the PID creation process is done user will receive a mail from Field Glass will steps to create an account\n>>\tClick on Create Account button in that mail and register with your details\n>>\tField glass should be submitted on a weekly basis with 9 hours per day.\n>>\tIf the User was on Leave/Holiday the value should be 0 for that particular day and proper comments should be updated\n"],
+         "context": [""]
+        },
+        {"tag": "Shared Folder Access request",
+         "patterns": ["shared folder access","Shared Folder Access request"],
+         "responses": [">>\tNavigate to below path 'http://varonis.corp.chartercom.com/DP/DesktopDefault.aspx?tabindex=10&tabid=155&tabParentid=0',\n>>\tSelect 'Folder request'\n>>\tClick on Change Users\n>>\tEnter the names to get access and select it and click on Update\n>>\tClick on Browse\n>>\tSelect Charter -> Tampa -> National\n>>\tClick Ok\n>>\tClick on Add -> the folder will get access to 'Operations', tab.\n>>\tProvide explanation as below and mention the date as Dec 2021 and click on Submit:\no\tHi, We are part of Billing QA Team, we need to access to Development\\QA folder to share the artifacts within the team, please provide access to the users added. Thanks!\n"],
+         "context": [""]
+        },
+        {"tag": "NCSS Portal Access request",
+         "patterns": ["ncss portal access","NCSS portal access"],
+         "responses": [">>\tRespective Person needs to send an email to  daniil.karpechenko@netcracker.com  for getting the NCSS Portal Access"],
+         "context": [""]
+        },
+          {"tag": "BRF Access request",
+         "patterns": ["brf request","brf access"],
+         "responses": [">>\tRespective Person needs to send an email to  DL-RDM-Operations@charter.com as attached for getting the BRF Portal Access"],
+         "context": [""]
+        },
+        {"tag": "Configuring Charter Outlook",
+         "patterns": ["configure charter outlook","configure outlook"],
+         "responses": [">>\tOpen Outlook -> Click on File -> Add Account\n>>\tEnter your Charter email ID \n>>\tSelect Other credentials option\n>>\tEnter your PID prefixed with 'CHTR\\' and password\n>>\tIt should get loaded successfully\n"],
+         "context": [""]
+        },
+        {"tag": "Track Level Overview",
+         "patterns": ["track level overview","track overview"],
+         "responses": [">>\tICOMS, CRM, ATLAS\n Type any one name(space)info to know more"],
+         "context": [""]
+        },
+        {"tag": "ICOMS",
+         "patterns": ["icoms info","icoms"],
+         "responses": [">>\tICOMS (Integrated Communications Operations Management System) is a multi-service, fully-integrated, subscriber management and billing system designed to manage all aspects of the modern cable operator’s business, including the provisioning of all telephony services and convergent billing .Timeslot generation, Development Number Master- Tenant Mapping, Marketing id addition, Dwell Type Update, Equipment Serial Number generation are possible only ICOMS"],
+         "context": [""]
+        },
+        {"tag": "CRM detail",
+         "patterns": ["crm","crm info"],
+         "responses": [">>\tNetCracker CRM is a location centric user interface designed for call center agents to create customers, accounts, and orders. It is a comprehensive business support system (BSS) that provides a positive user experience and enhanced capabilities in multiple areas such as customer management, account management, order entry, pay-per-view (PPV), and equipment management. Future Bill View for next 3 months possible only in CRM"],
+         "context": [""]
+        },
+        {"tag": "ATLAS",
+         "patterns": ["atlas","atlas info"],
+         "responses": [">>\tAtlas is CRM application where business user are able to shop offered services for the customers. It does not support disconnect and re-connect"],
+         "context": [""]
+        },
+        {"tag": "Transaction Supported/Scenario",
+         "patterns": ["transaction supported","transaction scenario","scenario"],
+         "responses": [">>\tInstall, Upgrade, Downgrade, Reconnect, Disconnect, SRO, Trouble call & Transfer"],
+         "context": [""]
+        },
+        {"tag": "Billing System",
+         "patterns": ["billing system"],
+         "responses": [">>\tThe billing process involves receiving billing records from various networks, determining the billing rates associated with the billing records, calculating the cost for each billing record, aggregating these records periodically to generate invoices, sending invoices to the customer, and collecting payments received from the customer."],
+         "context": [""]
+        },
+        {"tag": "Residential/commercial/Business",
+         "patterns": ["Residential","commercial","Business"],
+         "responses": [">>\tResidential service is furnished to an individual of family in their residence where the service will be used solely by the customer or family members for personal, domestic or social purposes.\n>>\tBusiness service is furnished for customer use in any premise regularly used in whole or in part for any business, trade or professional use."],
+         "context": [""]
+        }
+
+
+]
+}
